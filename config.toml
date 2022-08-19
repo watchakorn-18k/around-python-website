@@ -1,0 +1,110 @@
+baseURL = 'http://example.org/'
+languageCode = 'th'
+title = 'รอบเรื่องไพทอน'
+theme = "PaperMod"
+defaultContentLanguage = 'th'
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files
+
+[languages]
+    [languages.th]
+    title = 'รอบเรื่องไพทอน'
+
+
+#ปุ่มแชร์โพสต์
+[params]
+ShowShareButtons = true
+ShareButtons = [ "facebook", "twitter","telegram" ]
+
+#แสดงเวลาอ่าน
+ShowReadingTime = true
+
+#แสดงเส้นทาง
+ShowBreadCrumbs = true
+
+#หน้าแนะนำ
+ShowPostNavLinks = true
+
+#คักลอกโค้ดได้
+ShowCodeCopyButtons = true
+
+ShowToc = true
+TocOpen = true
+
+#ล้มเหลว assets
+[params.assets]
+disableFingerprinting = true
+
+
+
+
+
+#เพิ่มไอคอนเว็บ
+favicon = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Python_and_Qt_2.svg/256px-Python_and_Qt_2.svg.png"
+favicon16x16 = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Python_and_Qt_2.svg/256px-Python_and_Qt_2.svg.png"
+favicon32x32 = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Python_and_Qt_2.svg/256px-Python_and_Qt_2.svg.png"
+apple_touch_icon = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Python_and_Qt_2.svg/256px-Python_and_Qt_2.svg.png"
+safari_pinned_tab = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Python_and_Qt_2.svg/256px-Python_and_Qt_2.svg.png"
+
+#เพิ่มเมนูหน้าแรก
+[[menu.main]]
+identifier = "หน้าแรก"
+name = "หน้าแรก"
+url = "/"
+weight = 1
+
+#เพิ่มเมนูหมวดหมู่
+[[menu.main]]
+identifier = "หมวดหมู่"
+name = "หมวดหมู่"
+url = "/categories/"
+weight = 2
+
+#เพิ่มเมนูแท็ก
+[[menu.main]]
+identifier = "แท็ก"
+name = "แท็ก"
+url = "/tags/"
+weight = 3
+
+#เพิ่มเมนูค้นหา
+[[menu.main]]
+identifier = "ค้นหา"
+name = "ค้นหา"
+url = "/search/"
+weight = 4
+
+#เพิ่มเมนูเรื่องราว
+[[menu.main]]
+identifier = "เรื่องราว"
+name = "เรื่องราว"
+url = "/archives/"
+weight = 4
+
+
+
+
+
+
+#โปรไฟล์ที่จะใช้งานกับเว็บไซต์
+[params.homeInfoParams]
+Title = "รอบเรื่องไพธอน"
+Content = "ทุกเรื่องราวที่เกี่ยวกับไพธอน เขียนขึ้นโดย wk18k"
+
+[[params.socialIcons]]
+name = "Github"
+url = "https://github.com/watchakorn-18k"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/watchakorn-buddeewong-75a489229/"
+
+
+[params.profileMode]
+enabled = true
+title = "รอบเรื่องไพธอน"
+subtitle = "ทุกเรื่องราวที่เกี่ยวกับไพธอน เขียนขึ้นโดย wk18k"
+[[params.profileMode.buttons]]
+name = "หมวดหมู่"
+url = "/categories"
+
