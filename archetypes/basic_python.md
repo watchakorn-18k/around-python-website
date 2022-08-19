@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date:   {{ .Date }}
-draft: true
+draft: false
 author: wk18k
 keywords: ['Python']
 tags: ['การเขียนภาษาโปรแกรม Python พื้นฐาน']

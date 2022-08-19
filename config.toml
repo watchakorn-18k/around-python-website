@@ -2,7 +2,22 @@ baseURL = 'watchakorn-18k.github.io/around-python-website'
 languageCode = 'th'
 title = 'รอบเรื่องไพทอน'
 theme = "PaperMod"
+paginate = 5
 defaultContentLanguage = 'th'
+enableInlineShortcodes= true
+enableRobotsTXT= true
+buildDrafts= false
+buildFuture= false
+buildExpired= false
+enableEmoji= true
+pygmentsUseClasses= true
+
+[minify]
+disableXML= true
+
+[outputs]
+home = ['HTML', 'RSS', 'JSON']
+
 [markup.goldmark.renderer]
   unsafe = true # Allow HTML in md files
 
@@ -30,10 +45,18 @@ ShowCodeCopyButtons = true
 
 ShowToc = true
 TocOpen = true
+env = "production"
+description = "around-python-website"
+author = "watchakorn-18k"
+defaultTheme = "auto"
+displayFullLangName = true
+ShowRssButtonInSectionTermList = true
 
 #ล้มเหลว assets
 [params.assets]
 disableFingerprinting = true
+
+
 
 
 
@@ -106,5 +129,5 @@ title = "รอบเรื่องไพธอน"
 subtitle = "ทุกเรื่องราวที่เกี่ยวกับไพธอน เขียนขึ้นโดย wk18k"
 [[params.profileMode.buttons]]
 name = "หมวดหมู่"
-url = "/categories/"
+url = "https://watchakorn-18k.github.io/around-python-website/categories/"
 
