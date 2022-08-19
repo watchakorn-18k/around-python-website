@@ -106,5 +106,5 @@ title = "รอบเรื่องไพธอน"
 subtitle = "ทุกเรื่องราวที่เกี่ยวกับไพธอน เขียนขึ้นโดย wk18k"
 [[params.profileMode.buttons]]
 name = "หมวดหมู่"
-url = "/categories"
+url = "/categories/"
 
