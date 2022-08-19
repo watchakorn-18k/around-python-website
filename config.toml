@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'watchakorn-18k.github.io/around-python-website'
 languageCode = 'th'
 title = 'รอบเรื่องไพทอน'
 theme = "PaperMod"
