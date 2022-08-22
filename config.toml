@@ -102,6 +102,12 @@ name = "เรื่องราว"
 url = "/archives/"
 weight = 4
 
+[[menu.main]]
+identifier = "ตัวเขียนไพทอน"
+name = "ตัวเขียนไพทอน"
+url = "https://python-editor-web.herokuapp.com/"
+weight = 4
+
 
 
 
