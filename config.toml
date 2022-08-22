@@ -61,11 +61,11 @@ disableFingerprinting = true
 
 
 #เพิ่มไอคอนเว็บ
-favicon = "static\Python.svg"
-favicon16x16 = "static\Python.svg"
-favicon32x32 = "static\Python.svg"
-apple_touch_icon = "static\Python.svg"
-safari_pinned_tab = "static\Python.svg"
+favicon = "https://cdn.discordapp.com/attachments/372372440334073859/1011071362539995156/python.svg"
+favicon16x16 = "https://cdn.discordapp.com/attachments/372372440334073859/1011071362539995156/python.svg"
+favicon32x32 = "https://cdn.discordapp.com/attachments/372372440334073859/1011071362539995156/python.svg"
+apple_touch_icon = "https://cdn.discordapp.com/attachments/372372440334073859/1011071362539995156/python.svg"
+safari_pinned_tab = "https://cdn.discordapp.com/attachments/372372440334073859/1011071362539995156/python.svg"
 
 #เพิ่มเมนูหน้าแรก
 [[menu.main]]
