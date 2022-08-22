@@ -60,14 +60,12 @@ disableFingerprinting = true
 
 
 
-
-
 #เพิ่มไอคอนเว็บ
-favicon = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Python_and_Qt_2.svg/256px-Python_and_Qt_2.svg.png"
-favicon16x16 = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Python_and_Qt_2.svg/256px-Python_and_Qt_2.svg.png"
-favicon32x32 = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Python_and_Qt_2.svg/256px-Python_and_Qt_2.svg.png"
-apple_touch_icon = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Python_and_Qt_2.svg/256px-Python_and_Qt_2.svg.png"
-safari_pinned_tab = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Python_and_Qt_2.svg/256px-Python_and_Qt_2.svg.png"
+favicon = "static\Python.svg"
+favicon16x16 = "static\Python.svg"
+favicon32x32 = "static\Python.svg"
+apple_touch_icon = "static\Python.svg"
+safari_pinned_tab = "static\Python.svg"
 
 #เพิ่มเมนูหน้าแรก
 [[menu.main]]
