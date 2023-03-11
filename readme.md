@@ -1,5 +1,5 @@
 <h1 align="center">around-python-website</h1>
-<p align="center"><img src="https://cdn.discordapp.com/attachments/372372440334073859/1011071362539995156/python.svg" width=20%></p>
+<p align="center"><img src="https://cdn.discordapp.com/attachments/1074447855982477353/1084177576144154624/7gZNMX0-_400x400.png" width=20%></p>
 
 # ติดตั้ง
 

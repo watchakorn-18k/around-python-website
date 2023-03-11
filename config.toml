@@ -40,13 +40,13 @@ ShowBreadCrumbs = true
 #หน้าแนะนำ
 ShowPostNavLinks = true
 
-#คักลอกโค้ดได้
+#คัดลอกโค้ดได้
 ShowCodeCopyButtons = true
 
 ShowToc = true
 TocOpen = true
 env = "production"
-description = "around-python-website"
+description = "ค้นพบทุกสิ่งที่เกี่ยวข้องกับเว็บไซต์ Python อย่างเป็นทางการ เรียนรู้เกี่ยวกับฟีเจอร์ ฟังก์ชันการทำงาน และแหล่งข้อมูล ตลอดจนประวัติและวิวัฒนาการเมื่อเวลาผ่านไป"
 author = "watchakorn-18k"
 defaultTheme = "auto"
 displayFullLangName = true
@@ -61,11 +61,11 @@ disableFingerprinting = true
 
 
 #เพิ่มไอคอนเว็บ
-favicon = "https://cdn.discordapp.com/attachments/372372440334073859/1011071362539995156/python.svg"
-favicon16x16 = "https://cdn.discordapp.com/attachments/372372440334073859/1011071362539995156/python.svg"
-favicon32x32 = "https://cdn.discordapp.com/attachments/372372440334073859/1011071362539995156/python.svg"
-apple_touch_icon = "https://cdn.discordapp.com/attachments/372372440334073859/1011071362539995156/python.svg"
-safari_pinned_tab = "https://cdn.discordapp.com/attachments/372372440334073859/1011071362539995156/python.svg"
+favicon = "https://cdn.discordapp.com/attachments/1074447855982477353/1084177576144154624/7gZNMX0-_400x400.png"
+favicon16x16 = "https://cdn.discordapp.com/attachments/1074447855982477353/1084177576144154624/7gZNMX0-_400x400.png"
+favicon32x32 = "https://cdn.discordapp.com/attachments/1074447855982477353/1084177576144154624/7gZNMX0-_400x400.png"
+apple_touch_icon = "https://cdn.discordapp.com/attachments/1074447855982477353/1084177576144154624/7gZNMX0-_400x400.png"
+safari_pinned_tab = "https://cdn.discordapp.com/attachments/1074447855982477353/1084177576144154624/7gZNMX0-_400x400.png"
 
 #เพิ่มเมนูหน้าแรก
 [[menu.main]]
@@ -102,12 +102,6 @@ name = "เรื่องราว"
 url = "/archives/"
 weight = 5
 
-[[menu.main]]
-identifier = "ตัวเขียนไพทอน"
-name = "ตัวเขียนไพทอน"
-url = "https://python-editor-web.herokuapp.com/"
-weight = 6
-
 
 
 
@@ -116,7 +110,7 @@ weight = 6
 #โปรไฟล์ที่จะใช้งานกับเว็บไซต์
 [params.homeInfoParams]
 Title = "รอบเรื่องไพธอน"
-Content = "ทุกเรื่องราวที่เกี่ยวกับไพธอน เขียนขึ้นโดย wk18k"
+Content = "ค้นพบทุกสิ่งที่เกี่ยวข้องกับเว็บไซต์ Python อย่างเป็นทางการ เรียนรู้เกี่ยวกับฟีเจอร์ ฟังก์ชันการทำงาน และแหล่งข้อมูล ตลอดจนประวัติและวิวัฒนาการเมื่อเวลาผ่านไป"
 
 [[params.socialIcons]]
 name = "Github"
@@ -130,7 +124,7 @@ url = "https://www.linkedin.com/in/watchakorn-buddeewong-75a489229/"
 [params.profileMode]
 enabled = true
 title = "รอบเรื่องไพธอน"
-subtitle = "ทุกเรื่องราวที่เกี่ยวกับไพธอน เขียนขึ้นโดย wk18k"
+subtitle = "ค้นพบทุกสิ่งที่เกี่ยวข้องกับเว็บไซต์ Python อย่างเป็นทางการ เรียนรู้เกี่ยวกับฟีเจอร์ ฟังก์ชันการทำงาน และแหล่งข้อมูล ตลอดจนประวัติและวิวัฒนาการเมื่อเวลาผ่านไป"
 [[params.profileMode.buttons]]
 name = "หมวดหมู่"
 url = "https://watchakorn-18k.github.io/around-python-website/categories/"
